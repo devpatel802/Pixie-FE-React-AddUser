@@ -18,9 +18,9 @@
 body {
   background-image: var(--bg);
   background-repeat: no-repeat;
-  min-height: 100vh;
-  min-width: 100%;
-  padding: 20px;
+  /* min-height: 100vh;
+  min-width: 100%; */
+  /* padding: 20px; */
 }
 
 .containers {

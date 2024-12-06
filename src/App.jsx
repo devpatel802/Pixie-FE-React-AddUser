@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Header />
-      <div className="container">
+      <div className="container" style={{padding: '20px'}}>
         <AddUser />
       </div>
     </div>

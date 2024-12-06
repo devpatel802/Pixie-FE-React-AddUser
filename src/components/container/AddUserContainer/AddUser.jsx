@@ -33,7 +33,7 @@ const AddUser = () => {
       <div className={style.user_information}>
         <div className={style.user_account}>
           <div className={style.user_title}>
-          <div className={style.text_wrapper_2}>First/Last Name</div>
+          <h2>First/Last Name</h2>
           <div className={style.user_edit}>
             <a href="#" className={style.edit_link}>Edit</a>
           </div>
@@ -67,6 +67,7 @@ const AddUser = () => {
               SMS Active
             </label>
             {renderPropertyInfo("Property title 1")}
+            {renderPropertyInfo("Property title 2", "2")}
           </form>
         </div>
 
@@ -102,6 +103,7 @@ const AddUser = () => {
               />
               SMS Active
             </label>
+            {renderPropertyInfo("Property title 1")}
             {renderPropertyInfo("Property title 2", "2")}
             <div className={style.button_group}>
               <button type="submit" className={style.btn_primary}>Add User</button>
